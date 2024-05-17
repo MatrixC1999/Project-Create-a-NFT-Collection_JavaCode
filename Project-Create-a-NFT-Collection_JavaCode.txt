@@ -1,0 +1,27 @@
+
+t
+        console.log("Name: " + NFT.name);
+        console.log("Shirt: " + NFT.shirtType);
+        console.log("Pants: " + NFT.pantsType);
+        console.log("Shoes: " + NFT.shoeType);
+        console.log("Accessories: " + NFT.accessories);
+        console.log("---------------------------");
+    };
+}
+
+// Function to get total supply of NFTs
+function getTotalSupply() {
+    console.log("Total Supply: " + NFTs.length);
+}
+
+// Minting at least three NFTs
+
+// call your functions below this line
+mintNFT("NFT 1", "Polo", "Jeans", "Sandals", "Sunglasses");
+mintNFT("NFT 2", "T-Shirt", "Trousers", "Loafers", "Silver Watch");
+mintNFT("NFT 3", "Hoodie", "Joggers", "Sneakers", "Headphones");
+
+// Listing NFTs and getting total supply
+listNFTs();
+getTotalSupply();
+
